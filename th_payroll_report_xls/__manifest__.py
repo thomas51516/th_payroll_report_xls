@@ -1,7 +1,7 @@
 {
     'name': 'Rapport de paie en excel',
     'version': '1.0',
-    'licence': 'LGPL-3',
+    'license': 'LGPL-3',
     'category': 'payroll',
     'sequence': 60,
     'summary': 'Générer le rapport au format xlsx',
