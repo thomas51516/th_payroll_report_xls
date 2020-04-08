@@ -109,7 +109,7 @@ class payrollreportexcelwiz(models.TransientModel):
             col = 0
             ro = row
 
-            payslip_ids=self.env['hr.payslip'].search([('date_from','=',self.from_date),('date_to','=',self.date_end),('state','=','done')])
+            payslip_ids=self.env['hr.payslip'].search([('date_from','=',self.from_date),('date_to','=',self.date_end)])
             if payslip_ids:
 
                 for payslip in payslip_ids:
